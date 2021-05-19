@@ -1,0 +1,7 @@
+
+#image {
+	float: left;
+	width: 300px;
+	margin: 0px;
+	padding: 65px 30px 30px 0px;
+}

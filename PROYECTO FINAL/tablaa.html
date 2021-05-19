@@ -1,0 +1,199 @@
+<HTML>
+<HEAD>
+<TITLE> 
+Andrea Zuñiga
+</TITLE>
+<style>
+/* menu */
+
+#menu{
+text-align:center;
+}
+
+
+
+#menu ul {
+ list-style:none;
+ margin:0;
+ padding:0;
+ display:inline-block;
+}
+
+	/* items del menu */
+
+#menu ul li {
+ background-color:#C5B2FC;
+}
+
+	/* enlaces del menu */
+
+#menu ul a {
+ display:block;
+ color:#fff;
+ text-decoration:none;
+ font-weight: 400;
+ font-size: 15px;
+ padding: 10px;
+ font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+ text-transform: uppercase;
+ letter-spacing: 1px;
+}
+
+	/* items del menu */
+
+#menu ul li {
+ position:relative;
+ float: left;
+ margin:0;
+ padding:0;
+}
+
+	/* efecto al pasar el raton por los items del menu */
+#menu ul li:hover {
+ background: #D7C8FF;
+}
+	/* menu desplegable */
+#menu ul ul {
+display:none;
+position:absolute;
+top:100%;
+left:0;
+background:#eee;
+padding:0;
+}
+
+	/* items del menu desplegable */
+#menu ul ul li {
+float:none;
+width:150px
+}
+
+	/* enlaces de los items del menu desplegable */
+#menu ul ul a {
+line-height:120%;
+padding:10px 15px;
+}
+
+	/* items del menu desplegable al pasar el raton */
+#menu ul li:hover > ul {
+display:block;
+}
+
+</style>
+</HEAD>
+
+<BODY BACKGROUND= "pink.jpg">
+
+<embed src="2.mp3" loop="2" autostart="true" width=0 height=0></embed>
+<nav id="menu">
+
+<ul>
+<li><a href="INDEX.html">PÁGINA PRINCIPAL</a></li>
+<li><a href="CUENTOS.html">CUENTOS</a>
+<ul>	
+	<li><a href="ELEFANTE.html">El Elefante Fotografo</a></li>
+	<li><a href="CENICIENTA.html">La Cenicienta</a></li>
+	<li><a href="FLAUTISTA.html">El Flautista de Hamelin</a></li>
+</ul>
+</li>
+<li><a href="POEMAS.html">POEMAS</a>
+<ul>
+	<li><a href="PAPEL.html">El Papel y la Tinta</a></li>
+	<li><a href="POEMA1.html">Los Reyes de la Baraja</a></li>
+        <li><a href="POEMA2.html"> Hermanos y Amigos</a></li>
+</ul>
+</li>
+<li><a href="Tablaa.html">CUENTOS GRATIS</a></li>
+	</ul>
+	</nav>
+</HEAD>
+<BODY BACKGROUND="acua.png">
+<br><b><p align="center"><font size=7 color=#C5B2FC face= "Bedrock">FORMULARIO</br></b></font>
+<p align="center"><font size=5 color=#09305D> !HOLA PADRE DE FAMILIA! Llena este formulario para ganarte la oportunidad de recibir cuentos y poemas gratis justo en la puerta de tu casa sin ningun costo. </font></p></br>
+
+
+<form action="mailto:azn1701@gmail.com" method="post" enctype="text/plain">
+<table border=1 align=center BGCOLOR=FFC1FO>
+
+	<tr>
+	  <td>Nombre:</td>
+	  <td><Input type=text name="nombre"></td>
+	</tr>	  
+		
+	<tr>
+	  <td>Apellidos:</td>
+	  <td><Input type=text name="apellidos"></td>
+	</tr>
+
+	<tr>
+	  <td>No. de hijos</td>
+	  <td><Input type=number name="numero"></td>
+	</tr>
+	
+	<tr>
+	  <td>Teléfono (casa)</td>
+	  <td><Input type=number name="telefonocasa"></td>
+	</tr>
+
+	<tr>
+	  <td>Teléfono2 (celular)</td>
+	  <td><Input type=number name="telefonocel"></td>
+	</tr>
+
+	<tr>
+	  <td>Correo electrónico </td>
+	  <td><Input type=text name="correo"></td>
+	</tr>	
+
+
+	<tr>
+	<td>Sexo 
+	  </td>
+	  <td><select name="sexo">
+	  	<option> Femenino
+	  	<option> Masculino </td>
+	</select>
+	</tr>
+
+	<tr>
+	  <td>Edad</td>
+	  <td><Input type=number name="edad"></td>
+	</tr>
+
+
+	<tr>
+	  <td> Lugar de trabajo:
+	</td>
+	<td><select name="trabajo">
+		<option>Economia 
+		<option>Agricultura
+		<option>Deporte
+		<option>Informatica
+		<option>Ciencia
+		<option>Investigacion 
+	</select>
+	</td>
+	</tr>
+
+
+
+	<tr>
+	  <td>Fecha de nacimiento:</td>
+	  <td><input type=date name="Fnac"></td>
+	</tr>
+	
+	
+</table>
+	<br><center>
+	<input type=submit value="Enviar datos">
+	<input type=reset value="Borrar">
+	</br></center>
+</form>
+
+<br><p align="center"><font size=5 color=#09305D> Listo! Gracias por llenar el formulario, en caso de ser cualificado nosotros te contactaremos </br></p></font>
+<p align="center"><Font size=5 color=#09305D> para que nos proporciones tus datos de envio. </p></font>
+
+</BODY>
+<FOOTER>
+</FOOTER>
+</HTML>
